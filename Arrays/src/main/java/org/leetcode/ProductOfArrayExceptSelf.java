@@ -1,7 +1,11 @@
 package org.leetcode;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class ProductOfArrayExceptSelf {
     public int[] productExceptSelf(int[] nums) {
+
         int n = nums.length;
         int[] res = new int[n];
         int[] prefix = new int[n];
