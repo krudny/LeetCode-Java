@@ -7,9 +7,8 @@ public class HouseRobberII {
         }
         int[] rob = new int[right - left + 1];
         rob[0] = nums[left];
-        if (rob.length > 1) {
-            rob[1] = Math.max(nums[left], nums[left + 1]);
-        }
+        rob[1] = Math.max(nums[left], nums[left + 1]);
+
 
         for (int i = 2; i < rob.length; i++) {
             rob[i] = Math.max(rob[i - 2] + nums[left + i], rob[i - 1]);
