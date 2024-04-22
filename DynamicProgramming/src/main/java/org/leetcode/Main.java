@@ -2,7 +2,7 @@ package org.leetcode;
 
 public class Main {
     public static void main(String[] args) {
-        LongestPalindromicSubstring sol = new LongestPalindromicSubstring();
-        System.out.println(sol.longestPalindrome("cbbd"));
+        DecodeWays sol = new DecodeWays();
+        System.out.println(sol.decodeWays("11106"));
     }
 }
